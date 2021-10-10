@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		12AB384227130B5100D2C6B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB384127130B5100D2C6B7 /* AppDelegate.swift */; };
 		12AB384427130B5100D2C6B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB384327130B5100D2C6B7 /* SceneDelegate.swift */; };
-		12AB384627130B5100D2C6B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB384527130B5100D2C6B7 /* ViewController.swift */; };
+		12AB384627130B5100D2C6B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB384527130B5100D2C6B7 /* MainViewController.swift */; };
 		12AB384927130B5100D2C6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AB384727130B5100D2C6B7 /* Main.storyboard */; };
 		12AB384B27130B5400D2C6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AB384A27130B5400D2C6B7 /* Assets.xcassets */; };
 		12AB384E27130B5400D2C6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AB384C27130B5400D2C6B7 /* LaunchScreen.storyboard */; };
+		12AB385727130B6800D2C6B7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 12AB385627130B6800D2C6B7 /* Kingfisher */; };
+		12AB385927130BCC00D2C6B7 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB385827130BCC00D2C6B7 /* NetworkApi.swift */; };
+		12AB385B27130BFB00D2C6B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB385A27130BFB00D2C6B7 /* Model.swift */; };
+		12AB385D27130EA200D2C6B7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB385C27130EA200D2C6B7 /* SecondViewController.swift */; };
+		12AB385F27130F5A00D2C6B7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AB385E27130F5A00D2C6B7 /* CustomCell.swift */; };
+		12AB386227132A8600D2C6B7 /* Gifu in Frameworks */ = {isa = PBXBuildFile; productRef = 12AB386127132A8600D2C6B7 /* Gifu */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12AB383E27130B5100D2C6B7 /* Get Gif App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Gif App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AB384127130B5100D2C6B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12AB384327130B5100D2C6B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12AB384527130B5100D2C6B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12AB384527130B5100D2C6B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		12AB384827130B5100D2C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12AB384A27130B5400D2C6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12AB384D27130B5400D2C6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12AB384F27130B5400D2C6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12AB385827130BCC00D2C6B7 /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		12AB385A27130BFB00D2C6B7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		12AB385C27130EA200D2C6B7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		12AB385E27130F5A00D2C6B7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AB385727130B6800D2C6B7 /* Kingfisher in Frameworks */,
+				12AB386227132A8600D2C6B7 /* Gifu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +70,11 @@
 			children = (
 				12AB384127130B5100D2C6B7 /* AppDelegate.swift */,
 				12AB384327130B5100D2C6B7 /* SceneDelegate.swift */,
-				12AB384527130B5100D2C6B7 /* ViewController.swift */,
+				12AB384527130B5100D2C6B7 /* MainViewController.swift */,
+				12AB385C27130EA200D2C6B7 /* SecondViewController.swift */,
+				12AB385E27130F5A00D2C6B7 /* CustomCell.swift */,
+				12AB385827130BCC00D2C6B7 /* NetworkApi.swift */,
+				12AB385A27130BFB00D2C6B7 /* Model.swift */,
 				12AB384727130B5100D2C6B7 /* Main.storyboard */,
 				12AB384A27130B5400D2C6B7 /* Assets.xcassets */,
 				12AB384C27130B5400D2C6B7 /* LaunchScreen.storyboard */,
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = "Get Gif App";
+			packageProductDependencies = (
+				12AB385627130B6800D2C6B7 /* Kingfisher */,
+				12AB386127132A8600D2C6B7 /* Gifu */,
+			);
 			productName = "Get Gif App";
 			productReference = 12AB383E27130B5100D2C6B7 /* Get Gif App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,10 @@
 				Base,
 			);
 			mainGroup = 12AB383527130B5100D2C6B7;
+			packageReferences = (
+				12AB385527130B6700D2C6B7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				12AB386027132A8600D2C6B7 /* XCRemoteSwiftPackageReference "Gifu" */,
+			);
 			productRefGroup = 12AB383F27130B5100D2C6B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12AB384627130B5100D2C6B7 /* ViewController.swift in Sources */,
+				12AB385D27130EA200D2C6B7 /* SecondViewController.swift in Sources */,
+				12AB385B27130BFB00D2C6B7 /* Model.swift in Sources */,
+				12AB384627130B5100D2C6B7 /* MainViewController.swift in Sources */,
 				12AB384227130B5100D2C6B7 /* AppDelegate.swift in Sources */,
 				12AB384427130B5100D2C6B7 /* SceneDelegate.swift in Sources */,
+				12AB385F27130F5A00D2C6B7 /* CustomCell.swift in Sources */,
+				12AB385927130BCC00D2C6B7 /* NetworkApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +334,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +362,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +388,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12AB385527130B6700D2C6B7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		12AB386027132A8600D2C6B7 /* XCRemoteSwiftPackageReference "Gifu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kaishin/Gifu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12AB385627130B6800D2C6B7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12AB385527130B6700D2C6B7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		12AB386127132A8600D2C6B7 /* Gifu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12AB386027132A8600D2C6B7 /* XCRemoteSwiftPackageReference "Gifu" */;
+			productName = Gifu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12AB383627130B5100D2C6B7 /* Project object */;
 }
